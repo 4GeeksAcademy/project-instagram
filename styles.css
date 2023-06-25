@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10%;
+    box-sizing: border-box ;
+}
+.post {
+    border: 1px border black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+
+}
