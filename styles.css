@@ -4,7 +4,7 @@ body{
     flex-direction: row;
     justify-content: center;
     padding: 10%;
-    box-sizing: border-box ;
+    box-sizing: border-box;
 }
 .post {
     border: 1px border black;
@@ -15,5 +15,25 @@ body{
     justify-content: center;
     align-content: center;
     background-color: white;
+}
+.header {
+    width: 100%;
+    border: 1px green;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    padding: 8px;
+}
+.title {
+    width: 50%;
+    border: 2px solid red;
+}
 
+.icon-ellipse {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 5px ;
+    border: 2px solid yellow;
 }
