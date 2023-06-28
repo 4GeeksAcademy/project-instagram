@@ -17,7 +17,7 @@ body{
     background-color: white;
 }
 .header {
-    width: 96%;
+    width: 98%;
     height: 50%;
     border: 1px green;
     display: inline-flex;
@@ -27,16 +27,17 @@ body{
 
 .title {
     width: 30%;
-    border: 2px solid red;
     display: inline-flex
 }
 .logo {
     width: 20px;
     height: 20px;
+    padding: 10px 5px 15px 10px;
 }
 .text {
-    padding-left: 10px;
+    padding-left: 10px 5px 15px 5px;
     font-family: arial, sans-serif;
+    font-size: 15px;
 }
 .icon-ellipse {
     width: 80%;
@@ -45,7 +46,6 @@ body{
     justify-content: end;
     align-items: center;
     padding: 0px 3px 0px 0px;
-    border: 2px solid yellow;
     
 }
 .image {
@@ -56,4 +56,20 @@ body{
 }
 .left {
     padding-left: 10px;
+}
+.right {
+    padding-left: 270px;
+}
+.reactions {
+    padding: 5px 5px 0px 8px;
+    font-family:  Arial, sans-serif;
+    font-size: 13px;
+  
+}
+.comment {
+    padding: 0px 10px 15px 8px;
+    margin-top: 0%;
+    font-family:  Arial, sans-serif;
+    font-size: 13px;
+    
 }
